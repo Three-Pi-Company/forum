@@ -315,3 +315,136 @@ footer{
         margin: 0 auto;
     }
 }
+/*-------------------------------------------------------------------------
+|                                                                         |
+|                             Registration/Login                          |
+|                                                                         |
+-------------------------------------------------------------------------*/
+
+/* Sign up form */
+
+.form-container{
+    margin: 0px auto;
+    width: 35%;
+    padding: 50px 30px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.9);
+}
+.form-container h2{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 8px;
+    font-size: 30px;
+}
+
+.sign-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-form input{
+    width: 80%;
+    background: transparent;
+    border: hidden;
+    border-radius: 0px;
+    border-bottom: 1px solid white;
+    margin: 23px auto;
+    text-align: center;
+    color: #c5c1c1;
+    font-size: 16px;
+    outline: none;
+}
+
+.sign-form input[type="text"]:focus, .sign-form input[type="password"]:focus{ 
+    border-radius: 18px;
+    border: hidden;
+    border: 2px solid white;
+    box-shadow: 0 0 10px 8px  rgba(255,255,255,255.75);
+}
+
+.sign-form input:-webkit-autofill,
+.sign-form input:-webkit-autofill:hover, 
+.sign-form input:-webkit-autofill:focus{
+    
+    -webkit-text-fill-color: white;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.checkbox{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sign-form input[type="checkbox"]{
+    width: auto;
+    margin-right: 20px;
+}
+
+.sign-form input[type="submit"]{
+    margin: 40px auto;
+    width: 80%;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    height: 40px;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.sign-form input[type="submit"]:hover{
+    background-color: #800000 ;
+}
+
+.form-text{
+    padding-left: 10%;
+    padding-right: 10%;
+    color: orange;
+}
+
+
+/* https://www.youtube.com/watch?v=K1CzktZMXhY */
+
+
+.user{
+    margin: 0 auto;
+    display:block;
+    width: 80%;
+    color: lightgray;
+    line-height: 25px;
+}
+.user a{
+    color: white;
+    text-decoration: none;
+}
+.user a:hover{
+    text-decoration: underline;
+    display:block;
+    width: 80%;
+    color: lightgray;
+    line-height: 25px;
+}
+.db_error{
+    color: red;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    display:block;
+    width: 80%;
+    
+}
+.grecaptcha-badge { 
+    visibility: hidden;
+}
+
+.google{
+    margin: 0 auto 30px;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    width: 75%;
+    color: #8c8c8c;
+}
