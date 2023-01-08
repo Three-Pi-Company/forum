@@ -1,0 +1,26 @@
+{
+	"default_language": "pl",
+	"languages": ["en", "pl"],
+	"translations": {
+		"title": {
+			"en": "Welcome on Three Pi portal!",
+			"pl": "Witaj na portalu Three Pi!"
+		},
+		"join_us": {
+			"en": "Join to Us!",
+			"pl": "Dołącz do nas!"
+		},
+		"button-sign-in": {
+			"en": "Sign in",
+			"pl": "Zaloguj się"
+		},
+		"button-sign-up": {
+			"en": "Sign up",
+			"pl": "Zarejestruj się"
+		},
+		"signature": {
+			"en": "Created by Three Pi team<br>&copy;2020 Copyright",
+			"pl": "Stworzone przez grupę Three Pi<br>&copy;2020 Wszelkie prawa zastrzeżone"
+        }
+    }
+}
