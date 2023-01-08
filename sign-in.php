@@ -82,11 +82,11 @@
             logged_out_greeting="Witaj na stronie Three Pi. Masz do nas jakieś pytania? Napisz do nas teraz !"
             greeting_dialog_display="hide">
         </div>
-         <div data-translatekey="signature" class="signature" >Created by Three Pi Inc.<br>&copy;2020 Copyright</div>
+         <div data-translatekey="signature" class="signature" >Created by Three Pi Team<br>&copy;2023 Copyright</div>
          <div class="social-media">
             <a href="https://discord.com/invite/4sDBNYPWcC"><img width="32px" height="32px" src="img/social-media/discord.png"></a>
             <a href="https://www.facebook.com/Official.Three.Pi/"><img width="32px" height="32px" src="img/social-media/facebook.png"></a>
-            <a href="https://github.com/Three-Pi-Company/Three_Pi"><img width="32px" height="32px" src="img/social-media/github.png"></a>
+            <a href="https://github.com/Three-Pi-Company/forum"><img width="32px" height="32px" src="img/social-media/github.png"></a>
             <a href="https://twitter.com/The_Three_Pi"><img width="32px" height="32px" src="img/social-media/twitter.png"></a>
         </div>
         <!-- <div class="sound"></div> -->
