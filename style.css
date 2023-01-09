@@ -315,6 +315,7 @@ footer{
         margin: 0 auto;
     }
 }
+
 /*-------------------------------------------------------------------------
 |                                                                         |
 |                             Registration/Login                          |
@@ -448,6 +449,7 @@ footer{
     width: 75%;
     color: #8c8c8c;
 }
+
 /*-------------------------------------------------------------------------
 |                                                                         |
 |                             Main Content                                |
@@ -571,3 +573,247 @@ footer{
     font-size: 18px;
     line-height: 30px;
 }
+.topic-title{
+    margin: 20px auto 0;
+    background: rgb(43, 122, 171);
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+    padding: 10px;
+    border-radius: 15px;
+    border: groove 5px rgb(33, 94, 133);
+    text-align: center;
+    user-select: text;
+    -webkit-user-select: text;
+}
+.topic-details{
+    margin: 20px auto 0;
+    background: rgb(17, 49, 69);
+    padding: 30px 20px  10px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: groove 5px rgb(33, 94, 133);   
+}
+
+.topic-details .text{
+    user-select: text;
+    -webkit-user-select: text;
+}
+.posts{
+    margin: 80px auto 0px;
+    background: rgba(27, 71, 124,.75);
+    border-radius: 15px;
+    border: groove 5px orange;   
+}
+.posts > section{
+    padding: 30px 15px;
+    border-bottom: dashed 5px orange;
+    border-radius: 10px;
+}
+.posts > section:hover{
+    background:rgba(0, 0, 0, 0.2);
+    background-clip: padding-box;   
+}
+.post{
+    user-select: text;
+    -webkit-user-select: text;
+}
+.post sub{
+    user-select: none;
+    -webkit-user-select: none;
+}
+.post-action{
+    margin-top: 20px;
+}
+.like{
+    background: url(img/like.png);
+}
+.unlike{
+    background: url(img/unlike.png);
+}
+.unlike:hover{
+    background-color: red !important;
+}
+.like:hover{
+    background-color: green !important;
+}
+.like , .unlike{
+    background-color: rgb(43, 122, 171);
+    background-size: 22px 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    outline: none;
+}
+
+.reply-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto 50px;
+    width: 60%;
+    
+    
+}
+.reply-form textarea::-webkit-scrollbar {
+    display: none;
+  }
+.reply-form textarea {
+    height: 180px;
+    resize: none;
+    padding: 10px;
+    outline: none;
+    border: none;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    border: outset 5px rgb(148, 250, 238); 
+    border-radius: 8px; 
+    background-color: rgb(43, 122, 171, 0.7);
+    color: white;
+    font-family: 'Nerko One', cursive;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.reply-form button{
+    border: none;
+    height: 60px;
+    width: 25%;
+    margin: 20px auto 0px;
+    outline: none;
+    border: outset 5px rgb(255, 130, 13);  
+    background-color: orange;
+    font-size: 40px;
+    font-family: 'Nerko One', cursive;
+    border-radius: 15px;
+    color: white;
+    
+
+}
+.reply-form button:hover {
+
+    background-color: rgb(255, 130, 13);
+    cursor: pointer;
+}
+.topic-form{
+    font-family: 'Nerko One', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto 50px;
+    width: 50%;
+}
+.topic-form input, .topic-form textarea, .topic-form button {
+    background-color:  rgb(43, 122, 171);
+    border: outset 5px  rgb(33, 94, 133);
+    height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    outline: none;
+    font-size: 25px;
+    font-family: 'Nerko One', cursive;
+    border-radius: 15px;
+    color:white ;
+    -webkit-box-shadow: 2px 2px 20px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 20px 7px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 20px 7px rgba(0,0,0,0.75);
+}
+.topic-form input::placeholder, .topic-form textarea::placeholder{
+    color: rgb(184, 181, 181);
+}
+.topic-form input:-webkit-autofill,
+.topic-form input:-webkit-autofill:hover, 
+.topic-form input:-webkit-autofill:focus{
+    -webkit-text-fill-color: white;
+    transition: background-color 5000s ease-in-out 0s;
+}
+.topic-form textarea{
+    background-color: rgb(17, 49, 69, 0.75);
+    height: 200px;
+    resize: none;
+}
+.topic-form button{
+    width: 20%;
+    height: 30%;
+    margin: 20px auto;
+    border: outset 5px rgb(255, 130, 13);  
+    background-color: orange;
+}
+.topic-form textarea::-webkit-scrollbar {
+    display: none;
+  }
+.topic-form button:hover{
+    background-color:rgb(255, 130, 13);
+    cursor: pointer;
+}
+
+.topics{
+    width: 80%;
+    margin: 80px auto 0px;
+    padding: 20px 10px;
+}
+.topics a{
+    text-decoration: none;
+    color: orange;
+}
+.topics section{
+    margin: 20px 0px;
+    padding: 30px 15px 10px;
+    border: groove 5px rgb(43, 122, 171);
+    border-radius: 10px;
+    background: rgb(10, 30, 55);
+}
+.topics div:nth-child(2){
+    margin-left: auto;
+    margin-right: 10px;
+    color: white;
+    flex-basis: 150px;
+}
+.topics section:hover{
+    background-color:   rgb(43, 122, 171);
+    
+}
+
+.gallery{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.gallery img{
+    margin: 5px;
+    height: auto;
+    min-height: 220px;
+    max-height: 10vh;
+    border-radius: 10px;
+}
+.gallery img:hover{
+    cursor: pointer;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+.close{
+    color: red;
+}
+.close1{
+    color: red;
+}
+.close2{
+    color: white;
+}
+.close:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.close:hover .close2{
+    color: red;
+}
+.close:hover .close1{
+    color: white;
+}
+

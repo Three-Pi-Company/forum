@@ -19,8 +19,190 @@
 			"pl": "Zarejestruj się"
 		},
 		"signature": {
-			"en": "Created by Three Pi team<br>&copy;2020 Copyright",
-			"pl": "Stworzone przez grupę Three Pi<br>&copy;2020 Wszelkie prawa zastrzeżone"
-        }
-    }
+			"en": "Created by Three Pi Team<br>&copy;2023 Copyright",
+			"pl": "Stworzone przez grupę Three Pi<br>&copy;2023 Wszelkie prawa zastrzeżone"
+		},
+        "thetimeisnow": {
+		  "en": "The time is now",
+		  "pl": "Aktualna godzina"
+		},
+        "hours": {
+			"en": "Hours",
+			"pl": "Godzina"
+		},
+		"minutes": {
+			"en": "Minutes",
+			"pl": "Minuta"
+		},
+
+		"seconds": {
+			"en": "Seconds",
+			"pl": "Sekunda"
+		},
+
+        "register_form": {
+		  "en": "Register Form",
+		  "pl": "Formularz rejestracji"
+		},
+        "google": {
+		  "en": "This page is protected by Google reCAPTCHA to ensure you're not a&nbsp;bot.",
+		  "pl": "Ta strona korzysta z&nbsp;zabezpieczenia Google reCAPTCHA, by upewnić się, że nie jesteś botem."
+		},
+        "sign-up-form-nickname": {
+		  "en": "Type Nickname",
+		  "pl": "Wpisz Nick"
+		},
+        "sign-up-form-email": {
+		  "en": "Type E-mail",
+		  "pl": "Wpisz E-mail"
+		},
+        "sign-up-form-password": {
+		  "en": "Type Password",
+		  "pl": "Wpisz hasło"
+		},
+        "sign-up-form-password-again": {
+		  "en": "Type Password Again",
+		  "pl": "Wpisz hasło ponownie"
+		},
+        "sign-up-form-checkbox": {
+		  "en": "Agree to our terms of&nbsp;service",
+		  "pl": "Zaakceptuj nasze warunki korzystania z&nbsp;usługi"
+		},
+        "sign-up-form-button-sign-up": {
+		  "en": "Sign up",
+		  "pl": "Zarejestruj się"
+		},
+        "Do_you_have_an_account?": {
+		  "en": "Do you have an account?",
+		  "pl": "Masz konto?"
+		},
+        "Login_to_your_account": {
+		  "en": "Login to your account",
+		  "pl": "Zaloguj się do swojego konta"
+		},
+		"login_form": {
+			"en": "Login Form",
+			"pl": "Formularz logowania"
+		  },
+		  "sign-in-form-email": {
+			"en": "Type E-mail",
+			"pl": "Wpisz E-mail"
+		  },
+		  "sign-in-form-password": {
+			"en": "Type Password",
+			"pl": "Wpisz hasło"
+		  },
+		  "sign-in-form-button-sign-in": {
+			"en": "Sign in",
+			"pl": "Zaloguj się"
+		  },
+		  "You_don't_have_an_account_yet?": {
+			"en": "You don't have an account yet?",
+			"pl": "Nie masz jeszcze konta?"
+		  },
+		  "Create_an_account": {
+			"en": "Create an account",
+			"pl": "Stwórz konto"
+		  },
+		  "logout": {
+			"en": "Logout",
+			"pl": "Wyloguj się"
+		  },
+		  "reply_form_button_reply": {
+			"en": "Reply",
+			"pl": "Wyślij"
+		  },
+		  "topic_form_title": {
+			"en": "Title",
+			"pl": "Tytuł"
+		  },
+		  "topic_form_desc": {
+			"en": "Description",
+			"pl": "Opis"
+		  },
+		  "topic_form_button_create": {
+			"en": "Create",
+			"pl": "Dodaj"
+		  },
+		  "Profile": {
+			"en": "Profile",
+			"pl": "Profil"
+		  },
+		  "Change_password": {
+			"en": "Change password",
+			"pl": "Zmień hasło"
+		  },	
+		  "Delete_account": {
+			"en": "Delete account",
+			"pl": "Usuń konto"
+		  },
+		  "tanphy": {
+			"en": "There are no posts here yet",
+			"pl": "Aktualnie nie ma tu żadnych postów"
+		  },
+		  "recent_topics": {
+			"en": "Recent topics",
+			"pl": "Najnowsze posty "
+		  },
+		  "other_topics": {
+			"en": "Other topics",
+			"pl": "Inne posty"
+		  },
+		  "created_by": {
+			"en": "Created by ",
+			"pl": "Dodane przez "
+		  },
+		"replies": {
+			"en": "Replies: ",
+			"pl": "Odpowiedzi: "
+		},
+		"close": {
+			"en": "Close ",
+			"pl": "Zamknij "
+		},
+		"topic": {
+			"en": "topic",
+			"pl": "temat"
+		},
+		"by": {
+			"en": "Wrote by: ",
+			"pl": "Dodane przez: "
+		},
+		"morning": {
+			"en": "Good morning, ",
+			"pl": "Dzień dobry, "
+		},
+		"evening": {
+			"en": "Good evening, ",
+			"pl": "Dobry wieczór, "
+		},
+		"afternoon": {
+			"en": "Good afternoon, ",
+			"pl": "Witaj, "
+		},
+		"mistake-log": {
+			"en": "Incorrect login or password!",
+			"pl": "Niepoprawny login lub hasło!"
+		},
+		"mistake-reg": {
+			"en": "This nickname and email already exists",
+			"pl": "Taka nazwa i email już istnieje!"
+		},
+		"mistake-reg_2": {
+			"en": "This nickname already exists!",
+			"pl": "Taka nazwa już istnieje!"
+		},
+		"mistake-reg_3": {
+			"en": "This email already exists",
+			"pl": "Taki adres email już istnieje!"
+		},
+		"mistake-reg_4": {
+			"en": "You are a robot!",
+			"pl": "Jesteś robotem!?"
+		},
+		"no_answers": {
+			"en": "No answers",
+			"pl": "Brak odpowiedzi"
+		}
+	}
 }
