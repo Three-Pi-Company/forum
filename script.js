@@ -1,5 +1,5 @@
 /** config */
-const VERSION = 0.2;
+const VERSION = 0.3;
 /** end config */
 
 function deleteCookies() { 
