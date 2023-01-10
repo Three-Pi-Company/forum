@@ -26,11 +26,15 @@
     <main>
         <!-- Comming Soon Banner -->
         <div data-translatekey="title" class="welcome-banner">Welcome on Three Pi portal!</div><br>
-        <span style="display: block; margin-left: auto; margin-right: auto; width: 200px; padding: 10px; border: solid 3px lightgrey; border-radius: 20px; text-align: center; font-size: 40px; font-weight: bold; font-family: 'Indie Flower', cursive;">2023 Edition</span>
+        <span style="display: block; margin-left: auto; margin-right: auto; width: 300px; padding: 10px; border: solid 3px lightgrey; border-radius: 20px; text-align: center; font-size: 40px; font-weight: bold; font-family: 'Indie Flower', cursive;">2023 Edition</span>
         <!-- Banner End -->
 
         <div class="blur-container">
             <div class="blur-background"></div>
+            <!-- <h2 class="desc-h">Three Pi Team</h2> -->
+            <div data-translatekey="desc-cnt" class="desc-cnt">
+                <b>Three Pi</b> is website on which you can find answers to all of your questions from categories such as Math, Polish or English (and many others) by simply writing it on our website. But maybe you are math genius and you know all the answers ? Great, because now you can help other users by simple writing your answer in comment section bellow their topics. Don’t hesitate too much and join us now by registering your account on <b>Three Pi website today!</b> 
+            </div>
             <div id="quotesDisplay" class="text-on-blur"></div>
             <h3 data-translatekey="join_us" >Join Us!</h3>
             <a data-translatekey="button-sign-up" class="button-sign-up" href="sign-up.php">Sign up</a>  
@@ -64,8 +68,9 @@
 <script>
     window.addEventListener('DOMContentLoaded', ()=>{
         var quotes = [
-        '“Leadership and learning are indispensable to each other.”<p>John F. Kennedy</p>' , '“The beautiful thing about learning is that nobody can take it away from you.”<p>B.B. King</p>', '“Science, b*tch!”<p>Jessy Pinkman</p>', '“Live as if you were to die tomorrow. Learn as if you were to live forever.” <p>Mahatma Gandhi</p>', '“An investment in knowledge pays the best interest.” <p>Benjamin Franklin</p>', '“Nothing will work unless you do.” <p>Maya Angelou</p>', ' “Knowledge is power. Information is liberating. Education is the premise of progress, in every society, in every family.” <p>Kofi Annan</p>'
+        '“Leadership and learning are indispensable to each other.”<p>John F. Kennedy</p>' , '“The beautiful thing about learning is that nobody can take it away from you.”<p>B.B. King</p>', '“Live as if you were to die tomorrow. Learn as if you were to live forever.” <p>Mahatma Gandhi</p>', '“An investment in knowledge pays the best interest.” <p>Benjamin Franklin</p>', '“Nothing will work unless you do.” <p>Maya Angelou</p>', ' “Knowledge is power. Information is liberating. Education is the premise of progress, in every society, in every family.” <p>Kofi Annan</p>'
         ];
+        // '“Science, b*tch!”<p>Jessy Pinkman</p>'
         function newQuotes() {
             var randomNumber = Math.floor(Math.random() * (quotes.length));
             document.getElementById('quotesDisplay').innerHTML = quotes[randomNumber];

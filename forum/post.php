@@ -11,6 +11,11 @@
     $title = urldecode($_GET["title"]);
     $category = $_GET["category"];
 
+    if(!isset($_SESSION['rang']) && $category == "vip"){
+        header('Location: ../main.php');
+        exit(); 
+    }    
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -72,7 +77,7 @@
         <div class="topic-details">
             <?php
                 echo '<span class="text">'.$desc.'</span><p style="text-align: right;"><span data-translatekey="created_by">Created by</span>'.$creator.'</p>';
-                if($_SESSION['user'] == $creator){echo "<span class='close' id='close_$top_id'><span data-translatekey='close' class='close1'>Close </span><span data-translatekey='topic' class='close2'>topic</span></span>";}
+                if($_SESSION['user'] == $creator){echo "<span class='close' id='close_$top_id'><span data-translatekey='close' class='close1' id='close_$top_id'>Close </span><span data-translatekey='topic' class='close2' id='close_$top_id'>topic</span></span>";}
             ?>
         </div>
         <div class="posts">

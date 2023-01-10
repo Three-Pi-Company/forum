@@ -1,9 +1,9 @@
 <?php
 
 $host = "localhost";
-$db_user = "root";
-$db_password = "root";
-$db_name = "Three_Pi";
+$db_user = "s13815";
+$db_password = "*****";
+$db_name = "s13815";
 
 
 ?>

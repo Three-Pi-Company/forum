@@ -7,7 +7,7 @@
 			"pl": "Witaj na portalu Three Pi!"
 		},
 		"join_us": {
-			"en": "Join to Us!",
+			"en": "Join Us!",
 			"pl": "Dołącz do nas!"
 		},
 		"button-sign-in": {
@@ -18,9 +18,13 @@
 			"en": "Sign up",
 			"pl": "Zarejestruj się"
 		},
+		"desc-cnt": {
+			"en": "<b>Three Pi</b> is website on which you can find answers to all of your questions from categories such as Math, Polish or English (and many others) by simply writing it on our website. But maybe you are math genius and you know all the answers? Great, because now you can help other users by simple writing your answer in comment section bellow their topics. Don’t hesitate too much and join us now by registering your account on <b>Three Pi website today!</b> ",
+			"pl": "<b>Three Pi</b> jest stroną, na której możesz zadawać pytania oraz uczestniczyć w&nbsp;dyskusjach na wybrany tematy z&nbsp;przedmiotów&nbsp;szkolnych, takie jak Matematyka, Angielski, Polski i&nbsp;wiele innych. Nie przeczytałeś lektury na Polski a&nbsp;może znasz się bardzo dobrze na Matematyce? Zarejestruj się na Three Pi już teraz by zadawać pytania lub pomagać innym. W&nbsp;Three Pi głęboko wierzymy w&nbsp;to, że nie ma pytań, na które nie da się odpowiedzieć!"
+		},
 		"signature": {
-			"en": "Created by Three Pi Team<br>&copy;2023 Copyright",
-			"pl": "Stworzone przez grupę Three Pi<br>&copy;2023 Wszelkie prawa zastrzeżone"
+			"en": "Created by <a href='/~s13815/~forum/about.html'>Three Pi Team</a><br>&copy;2023 Copyright <span style='color:red'>--Projekt Zaliczeniowy-- </span>",
+			"pl": "Stworzone przez <a href ='/~s13815/~forum/about.html'>Three Pi Team</a><br>&copy;2023 Wszelkie prawa zastrzezone <span style='color:red'>--Projekt Zaliczeniowy-- </span>"
 		},
         "thetimeisnow": {
 		  "en": "The time is now",
@@ -124,29 +128,45 @@
 			"en": "Create",
 			"pl": "Dodaj"
 		  },
-		  "Profile": {
-			"en": "Profile",
-			"pl": "Profil"
-		  },
 		  "Change_password": {
-			"en": "Change password",
-			"pl": "Zmień hasło"
+			"en": "<a href='/~s13815/~forum/password.php'>Change password</a>",
+			"pl": "<a href='/~s13815/~forum/password.php'>Zmień hasło</a>"
 		  },	
 		  "Delete_account": {
 			"en": "Delete account",
 			"pl": "Usuń konto"
 		  },
+		  "old-form-password": {
+			"en": "Type old password",
+			"pl": "Wpisz stare hasło"
+		  },
+		  "new-form-password": {
+			"en": "Type new password",
+			"pl": "Wpisz nowe hasło"
+		  },
+		  "form-button-change": {
+			"en": "Change password",
+			"pl": "Zmień hasło"
+		  },
+		  "change_form": {
+			"en": "Password change form",
+			"pl": "Formularz zmiany hasla"
+		  },
 		  "tanphy": {
-			"en": "There are no posts here yet",
-			"pl": "Aktualnie nie ma tu żadnych postów"
+			"en": "There are no topics here yet",
+			"pl": "Aktualnie nie ma tu żadnych tematów"
 		  },
 		  "recent_topics": {
-			"en": "Recent topics",
-			"pl": "Najnowsze posty "
+			"en": "Recent topics:",
+			"pl": "Najnowsze tematy:"
+		  },
+		  "recent_topics_5": {
+			"en": "Recent 5 topics:",
+			"pl": "5 najnowszych tematów:"
 		  },
 		  "other_topics": {
 			"en": "Other topics",
-			"pl": "Inne posty"
+			"pl": "Inne tematy"
 		  },
 		  "created_by": {
 			"en": "Created by ",
@@ -200,9 +220,30 @@
 			"en": "You are a robot!",
 			"pl": "Jesteś robotem!?"
 		},
+		"mistake-chg_6": {
+			"en": "Old password is not correct",
+			"pl": "Stare hasło jest niepoprawne"
+		},
 		"no_answers": {
 			"en": "No answers",
 			"pl": "Brak odpowiedzi"
+		},
+		"title-about": {
+			"en": "About Us",
+			"pl": "O nas"
+		},
+		"about-contact": {
+			"en": "Contact Us",
+			"pl": "Kontakt z nami"
+		},
+		"about-address": {
+			"en": "Address:",
+			"pl": "Adres:"
+		},
+		"about-phone": {
+			"en": "Phone:",
+			"pl": "Telefon:"
 		}
+
 	}
 }

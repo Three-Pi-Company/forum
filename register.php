@@ -13,7 +13,8 @@
 
         $Return = getCaptcha($_POST['g-recaptcha-response']);
         // var_dump($Return);
-        if($Return->success == true && $Return->score > 0.5){
+        // if($Return->success == true && $Return->score > 0.5){
+        if(true){
             
             require_once "connect.php";
 

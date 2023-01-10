@@ -1,5 +1,5 @@
 /** config */
-const VERSION = 0.3;
+const VERSION = 0.6;
 /** end config */
 
 function deleteCookies() { 
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
             document.documentElement.lang = language
             setCookies('lang',language)
-            document.querySelector('.lang').style.background = "url(/img/" + language + ".png)";
+            document.querySelector('.lang').style.background = "url(/~s13815/~forum/img/" + language + ".png)";
             multilang._current_language = language
         },
 
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         }
     }
 
-    multilang.loadTranslations('/translations.json');
+    multilang.loadTranslations('/~s13815/~forum/translations.json');
 
     document.querySelector('.lang').addEventListener('click', ()=>{
         if(multilang._current_language == 'en'){

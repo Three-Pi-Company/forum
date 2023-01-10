@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 * {
     margin: 0;
@@ -44,7 +45,7 @@ body:before{
     width: 100%;
     height: 100%;
     z-index: -10;
-    background: url(img/background.jpg) no-repeat center center;
+    background: url(./img/background.jpg) no-repeat center center;
     background-size: cover;
     background-color: #0a1e37;
 }
@@ -103,19 +104,19 @@ div[class^="nav-"]{
     background-repeat: no-repeat;   
 }
 .nav-back{
-    background-image: url(/img/back.png);
+    background-image: url(./img/back.png);
     background-size: 28px 28px;   
 }
 .nav-create{
-    background-image: url(/img/create.png);
+    background-image: url(./img/create.png);
     background-size: 18px 18px;  
 }
 .nav-home{
-    background-image: url(/img/home.png);
+    background-image: url(./img/home.png);
     background-size: 28px 28px;
 }
 .nav-user{
-    background-image: url(/img/user.png);
+    background-image: url(./img/user.png);
     background-size: 28px 28px;
 }
 .user-detail{
@@ -136,6 +137,10 @@ div[class^="nav-"]{
     text-align: center;
 }
 .user-detail li:hover{
+    color: #800000;
+    cursor: pointer;
+}
+.user-detail li a:hover{
     color: #800000;
     cursor: pointer;
 }
@@ -298,6 +303,15 @@ footer{
     right: 8%;
 
 }
+.signature a{
+    color: lightgray;
+    text-decoration: none;
+}
+.signature a:hover{
+    color: darkgrey;
+    text-decoration: underline;
+}
+
 .lang:hover{
     cursor: pointer;
 }
@@ -314,6 +328,19 @@ footer{
         position: static;
         margin: 0 auto;
     }
+}
+.desc-cnt{
+    padding: 100px 10%;
+    font-size: 2em;
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Comfortaa', cursive;
+    text-align: justify;
+    color: wheat;
+}
+.desc-h{
+    text-align: center;
+    font-size: 2.4em;
+    color: #ffa500;
 }
 
 /*-------------------------------------------------------------------------
@@ -786,8 +813,8 @@ footer{
 .gallery img{
     margin: 5px;
     height: auto;
-    min-height: 220px;
-    max-height: 10vh;
+    /* min-height: 220px; */
+    max-height: 30vw;
     border-radius: 10px;
 }
 .gallery img:hover{
@@ -817,3 +844,140 @@ footer{
     color: white;
 }
 
+/*-------------------------------------------------------------------------
+|                                                                         |
+|                             About us                                    |
+|                                                                         |
+-------------------------------------------------------------------------*/
+
+.about-cnt{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.container2{
+    display: flex;
+    /* height: 800px; */
+    margin-bottom: 80px;
+    padding: 20px;
+}
+.about-team{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Leckerli One', cursive;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 60px;
+    color: lightgray;
+    
+}
+.about-banner{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Leckerli One', cursive;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 40px;
+    color: #f8ab27;
+    
+}
+.about-contact{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Leckerli One', cursive;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 40px;
+    color: #f8ab27;
+    
+}
+.onepi{
+    width: 33%;
+    border-right: 2px dashed #f8ab27;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.onepi:last-child{
+    border-right: none;
+}
+.onepi p{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+.onepi p:nth-child(3){
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: lightgray;
+}
+.onepi p:nth-last-child(2){
+    font-size: 1.2em;
+    color: #FA4D3E;
+    padding: 10px;
+}
+.onepi img{
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    /* margin-top: 30px; */
+    border: 3px solid #ffa500;
+    /* border: 3px solid black; */
+    margin-bottom: 40px;
+}
+.contact-cnt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.contact-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    padding: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+.contact-row a{
+    color: white;
+    text-decoration: none;
+}
+.contact-row a:hover{
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.about-social{
+    width: 80px;
+    height: 80px;
+    padding: 30px;
+}
+.about-social img{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.about-social img:hover{
+    transform: scale(1.5);
+}
+@media (max-width: 700px)  {
+    .container2{
+        flex-direction: column;
+    }
+    .onepi{
+        width: 100%;
+        border: none;
+    }
+    .contact-row{
+        width: 80%;
+    }
+}

@@ -47,7 +47,6 @@
                 <a href="../main.php"><div class="nav-home"></div></a>
                 <div class="nav-user"></div>
                 <ul class="user-detail">
-                    <li class="profile" data-translatekey="Profile">Profile</li>
                     <li class="pass" data-translatekey="Change_password">Change password</li>
                     <li class="delete" data-translatekey="Delete_account">Delete account</li>
                 </ul>
@@ -91,7 +90,7 @@
                 } else{
                     ?>
                     <section>
-                           <h3 style="margin-bottom: 20px;" data-translatekey="tanphy">There are no posts here yet.</h3>
+                           <h3 style="margin-bottom: 20px;" data-translatekey="tanphy">There are no topics here yet.</h3>
                     </section>
                     <?php
                 }
@@ -140,16 +139,13 @@
             a++;
         });
 
-        document.querySelector('.profile').addEventListener('click', ()=>{
-            alert('A kto taki ciekawski, jeszcze nie zrobione');
-        });
         document.querySelector('.pass').addEventListener('click', ()=>{
             alert('No to też, nie bądź taki!');
         });
         document.querySelector('.delete').addEventListener('click', ()=>{
             var boolean = confirm("Are you sure?")
             if(boolean)
-            window.location.pathname = '../delete.php';
+            window.location.pathname = '/~s13815/~forum/delete.php';
         });
 
         // Load Facebook SDK for JavaScript
