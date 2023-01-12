@@ -37,7 +37,7 @@
             }
             
         } else{
-            $_SESSION['mistake-chg'] = '<span data-translatekey="mistake_chg_5" >Old password is not correct</span>';
+            $_SESSION['mistake-chg'] = '<span data-translatekey="mistake-chg_5" >Old password is not correct</span>';
             header('Location: password.php');
         }
         

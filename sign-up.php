@@ -1,6 +1,5 @@
 <?php
     session_start();
-    define('SITE_KEY','6Lc0Kt4ZAAAAAAAyE4DrXg4R4bswXtU7owVo35Ei');
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +13,6 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="img/favicon.ico">
     <link rel="stylesheet" href="style.css">
-    <script src='https://www.google.com/recaptcha/api.js?render=<?php echo SITE_KEY; ?>'></script>
     <title>Three Pi</title>
     
 </head>
@@ -41,7 +39,6 @@
                     <div class="form-text" id="password_match_attention"></div>
                 <span class="checkbox"><label style="cursor: pointer;"><input name="checkbox" type="checkbox"/><span data-translatekey="sign-up-form-checkbox">Agree to our terms of service</span></label></span>
                     <div class="form-text" id="check_attention"></div>
-                    <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
                 <input data-translatekey="sign-up-form-button-sign-up" data-translateattribute="value" type="submit" name="submit" value="Sign up">   
             </form>
             <span data-translatekey="google" class="google">
@@ -58,34 +55,6 @@
         </div>
     </main>
     <footer>
-    <!-- Load Facebook SDK for JavaScript -->
-        <div id="fb-root"></div>
-        <script defer>
-            window.fbAsyncInit = function() {
-                FB.init({
-                    xfbml            : true,
-                    version          : 'v8.0'
-                });
-                };
-                (function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s); js.id = id;
-                js.src = 'https://connect.facebook.net/pl_PL/sdk/xfbml.customerchat.js';
-                fjs.parentNode.insertBefore(js, fjs);
-            }
-            (document, 'script', 'facebook-jssdk'));
-        </script>
-
-    <!-- Your Chat Plugin code -->
-        <div class="fb-customerchat"
-            attribution=setup_tool
-            page_id="113342123861721"
-            theme_color="#132F40"
-            logged_in_greeting="Witaj na stronie Three Pi. Masz do nas jakieś pytania? Napisz do nas teraz !"
-            logged_out_greeting="Witaj na stronie Three Pi. Masz do nas jakieś pytania? Napisz do nas teraz !"
-            greeting_dialog_display="hide">
-        </div>
          <div data-translatekey="signature" class="signature" >Created by Three Pi Team<br>&copy;2023 Copyright</div>
          <div class="social-media">
             <a href="https://discord.com/invite/4sDBNYPWcC"><img width="32px" height="32px" src="img/social-media/discord.png"></a>
@@ -93,11 +62,9 @@
             <a href="https://github.com/Three-Pi-Company/forum"><img width="32px" height="32px" src="img/social-media/github.png"></a>
             <a href="https://twitter.com/The_Three_Pi"><img width="32px" height="32px" src="img/social-media/twitter.png"></a>
         </div>
-        <!-- <div class="sound"></div> -->
         <div class="lang"></div>
     </footer>
-</body> 
-</html>
+
 <script src="script.js"></script>
 <script>
     var nickname = document.forms['sign-up-form']['nickname'];
@@ -286,3 +253,5 @@
         });
     });
 </script>
+</body> 
+</html>

@@ -1,5 +1,5 @@
 /** config */
-const VERSION = 0.6;
+const VERSION = 0.7;
 /** end config */
 
 function deleteCookies() { 
@@ -45,38 +45,6 @@ if( VERSION != cookieVersion ){
 console.log('info for dev: ' + document.cookie.split(';'));
 
 document.addEventListener('DOMContentLoaded', ()=>{
-
-    // var audio = new Audio('/sound/sound.mp3');
-    // audio.volume = 0.02;
-    // played = 'no';
-    // if(sessionStorage.getItem("played") || sessionStorage.getItem("timePlayed")){
-    //     played = sessionStorage.getItem("played");
-    //     tillPlayed = sessionStorage.getItem("timePlayed");
-    // }
-    // document.querySelector('.sound').addEventListener('click', ()=>{
-    //     if(played == 'no'){
-    //         audio.play();
-    //         played = 'yes';
-    //         sessionStorage.setItem("played", 'yes');
-    //     } else{
-    //         audio.pause();
-    //         audio.currentTime = 0;
-    //         played = 'no';
-    //         sessionStorage.setItem("played", 'no');
-    //         sessionStorage.setItem("timePlayed", audio.currentTime);
-            
-    //     }
-        
-    // });
-
-    // if(played == 'yes'){
-    //     if(tillPlayed){audio.currentTime = tillPlayed;}
-    //     audio.play();
-    // }
-    // function update(){
-    //     sessionStorage.setItem("timePlayed", audio.currentTime);
-    // }
-    // if(played == 'yes'){setInterval(update, 1);}
     
     let multilang = {
         _data: null,
